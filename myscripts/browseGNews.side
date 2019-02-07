@@ -1,0 +1,278 @@
+{
+  "id": "c85108f9-b3cd-41dd-9369-081ac61fe45b",
+  "version": "1.1",
+  "name": "IBM",
+  "url": "https://www.ibm.com",
+  "tests": [{
+    "id": "e9550a9b-a43e-4694-b9a2-dfd75614055c",
+    "name": "WebSphere",
+    "commands": [{
+      "id": "08fe85d9-b9a4-4733-9558-a8e51ef4d8ee",
+      "comment": "",
+      "command": "open",
+      "target": "/us-en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd405901-2016-456f-a80d-12e87f78c793",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ibm-search",
+      "targets": [
+        ["id=ibm-search", "id"],
+        ["css=#ibm-search", "css"],
+        ["xpath=//button[@id='ibm-search']", "xpath:attributes"],
+        ["xpath=//form[@id='ibm-search-form']/p/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dfdbfe5-1ab2-455c-a160-aab1bfe611c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ibm-search",
+      "targets": [
+        ["id=ibm-search", "id"],
+        ["css=#ibm-search", "css"],
+        ["xpath=//button[@id='ibm-search']", "xpath:attributes"],
+        ["xpath=//form[@id='ibm-search-form']/p/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4047efd6-8622-45d4-af60-aad4a15ecbdc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ibm-search",
+      "targets": [
+        ["id=ibm-search", "id"],
+        ["css=#ibm-search", "css"],
+        ["xpath=//button[@id='ibm-search']", "xpath:attributes"],
+        ["xpath=//form[@id='ibm-search-form']/p/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c57bc6f-8c0a-4c93-8446-d0305821f958",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='ibm-search-form']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81473a78-39ab-4ade-8572-83df74b930e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='ibm-search-form']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "WebSphere"
+    }, {
+      "id": "96e60610-45fc-4c13-bc5d-f137aa752b62",
+      "comment": "",
+      "command": "submit",
+      "target": "id=ibm-search-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43eb7f1f-576f-46d3-adb2-268697449d69",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='search-result-suggested-match-41fd8038e4de6271ed0f83373aa4e9d9a31eb108']/h2",
+      "targets": [
+        ["xpath=//a[@id='search-result-suggested-match-41fd8038e4de6271ed0f83373aa4e9d9a31eb108']/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfda4f33-4d3e-447c-aedb-15227c713439",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cm-popup-close > button",
+      "targets": [
+        ["css=#cm-popup-close > button", "css"],
+        ["xpath=//div[@id='cm-popup-close']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2734512e-0a45-4710-a9a9-215a9042182b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#cm-popup-close > button",
+      "targets": [
+        ["css=#cm-popup-close > button", "css"],
+        ["xpath=//div[@id='cm-popup-close']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44548fc0-48f5-4413-b636-ffd24768fba6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#cm-popup-close > button",
+      "targets": [
+        ["css=#cm-popup-close > button", "css"],
+        ["xpath=//div[@id='cm-popup-close']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6869ae10-8584-4a77-8d92-3b5ac10fe016",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Resources",
+      "targets": [
+        ["linkText=Resources", "linkText"],
+        ["xpath=//a[contains(text(),'Resources')]", "xpath:link"],
+        ["xpath=//div[@id='ibm-content-main']/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#731221')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22001ef-426c-4ff2-a636-9e5c93885925",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='WebSphere has evolved over the past 20 years']",
+      "targets": [
+        ["xpath=//img[@alt='WebSphere has evolved over the past 20 years']", "xpath:img"],
+        ["xpath=//div[@id='731221']/div/div[2]/div/div[4]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d97fe315-3555-45ee-8e45-c0e4fb82b653",
+    "name": "ICP",
+    "commands": [{
+      "id": "10cff4c3-29ec-4c74-b8ac-0232def48f9d",
+      "comment": "",
+      "command": "open",
+      "target": "/cloud/private",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ea2cdd-ef2e-4395-b1c0-715dca5c27b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Developer",
+      "targets": [
+        ["linkText=Developer", "linkText"],
+        ["css=div.ibm-sitenav-menu-list > ul.cloud-menu-bar > li > a", "css"],
+        ["xpath=(//a[contains(text(),'Developer')])[5]", "xpath:link"],
+        ["xpath=//div[@id='ibm-content-wrapper']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cloud/private/developer')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa320e90-46ca-4b66-a6c8-e97498d0b164",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IBM Cloud Private tutorials",
+      "targets": [
+        ["linkText=IBM Cloud Private tutorials", "linkText"],
+        ["css=strong > a", "css"],
+        ["xpath=//a[contains(text(),'IBM Cloud Private tutorials')]", "xpath:link"],
+        ["xpath=//div[@id='block-northstar-content']/article/div/div/div[3]/section/div/div/div[2]/p[3]/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ibm.com/cloud/garage/architectures/private-cloud/icpsolutions')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a456c73-c05a-4c0d-9671-9d13c2eb823c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=IBM Cloud Private tutorials",
+      "targets": [
+        ["linkText=IBM Cloud Private tutorials", "linkText"],
+        ["css=strong > a", "css"],
+        ["xpath=//a[contains(text(),'IBM Cloud Private tutorials')]", "xpath:link"],
+        ["xpath=//div[@id='block-northstar-content']/article/div/div/div[3]/section/div/div/div[2]/p[3]/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ibm.com/cloud/garage/architectures/private-cloud/icpsolutions')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98073608-f0a8-406b-9556-17146a88f3ca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=IBM Cloud Private tutorials",
+      "targets": [
+        ["linkText=IBM Cloud Private tutorials", "linkText"],
+        ["css=strong > a", "css"],
+        ["xpath=//a[contains(text(),'IBM Cloud Private tutorials')]", "xpath:link"],
+        ["xpath=//div[@id='block-northstar-content']/article/div/div/div[3]/section/div/div/div[2]/p[3]/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ibm.com/cloud/garage/architectures/private-cloud/icpsolutions')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f21d52ca-8841-4173-be8f-b74919b4f068",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.left_nav_section_link",
+      "targets": [
+        ["css=div.left_nav_section_link", "css"],
+        ["xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a/li/div", "xpath:idRelative"],
+        ["xpath=//a/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbf2409-f332-4cd1-a1f8-f67754969f23",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a[2]/li/div",
+      "targets": [
+        ["xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a[2]/li/div", "xpath:idRelative"],
+        ["xpath=//a[2]/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7d3ed7-2ac6-414d-95ac-dcd3e085d440",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a[2]/li/div",
+      "targets": [
+        ["xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a[2]/li/div", "xpath:idRelative"],
+        ["xpath=//a[2]/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2fa7d0-d01e-4051-8ef7-f24a3c145921",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div.left_nav_section_link.leftNavSelectedItem",
+      "targets": [
+        ["css=div.left_nav_section_link.leftNavSelectedItem", "css"],
+        ["xpath=//div[@id='architecture-page']/div/div/div/div/div/ul/a[2]/li/div", "xpath:idRelative"],
+        ["xpath=//a[2]/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43a0eddf-eb21-458d-9a5f-ec0466af8f57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e9550a9b-a43e-4694-b9a2-dfd75614055c", "d97fe315-3555-45ee-8e45-c0e4fb82b653"]
+  }],
+  "urls": ["https://www.ibm.com/"],
+  "plugins": []
+}
